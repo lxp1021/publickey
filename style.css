@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+/*----------start 6.6.2通用属属性---------*/
+body,html{margin:0; padding:0; background:#fff; /*overflow:hidden;  width:100%;*/ height:98%; font-size:12px; font-family:Arial, Helvetica, sans-serif,simsun;}
+ul, p,h1,h2,h3,h4,h5,li{margin:0px; padding:0;list-style:none;}
+ul li{list-style:none;}
+ul ul li{list-style:none;}
+label, button, input[type="submit"], input[type="button"] {cursor:pointer;}
+.clear{clear:both;}
+.float_lef{float:left; display:inline;}
+.float_rig{float:right; display:inline;}
+img{border:none; margin:0; padding:0;}
+.font_wei{font-weight:bold;}
+.clearfix{zoom:1;}
+.clearfix:after{content: '\20'; display:block; clear:both;}
+.marg_lef5{margin-left:5px;}
+.marg_rig5{margin-right:5px;}
+.marg_lef10{margin-left:10px;}
+.marg_lef20{margin-left:20px;}
+.marg_top10{margin-top:10px;}
+.marg_top10{margin-top:10px;}
+.marg_top6{margin-top:6px;}
+.marg_top5{margin-top:5px;}
+.padd10{padding:10px;}
+.width100{width:100%;}
+.width80{width:80%;}
+.width30{width:30%;}
+a{color:#999999; text-decoration:none;}
+a:link{color:#999999; text-decoration:none;}
+a:visited{color:#999999; text-decoration:none;}
+a:hover{color:#000; text-decoration:none;}
+a:active{color:#FF7709; text-decoration:none; font-weight:bold;}
+.online_text_box a{color:#0066cc; text-decoration:none;}
+.online_text_box a:link{color:#0066cc; text-decoration:none;}
+.online_text_box a:visited{color:#0066cc; text-decoration:none;}
+.online_text_box a:hover{color:#000; text-decoration:none;}
+.online_text_box a:active{color:#0066cc; text-decoration:none; font-weight:bold;}
+/* 禁止换行 */
+.nowrap{word-break:keep-all;white-space:nowrap;}
+/* 强制换行 */
+.break{word-break:break-all;}
+/*强制不换行多余用省略号代替*/
+.nowrapAll{overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+/*----------end  6.6.2通用属性---------*/
+.bg_cent{background:url(images/background01.png) repeat center center; width:100%; height:100%;}
+.rule_wrap{background:url(images/con_bg.png) no-repeat center center; width:1065px; height:676px; margin:0px auto auto; position:relative;}
+.rule_hd{width:1000px; height:50px; position:absolute; left:30px; top:12px;}
+.rule_logo{width:150px; height:50px; line-height:56px; color:#666666;}
+.rule_icons{width:400px; height:56px;}
+.rule_icons table{width:100%; height:50px;}
+.rule_icons table td{padding-bottom:3px;}
+.rule_icons_item{width:56px; height:56px; cursor:pointer; background:url(images/rule_icons.png) no-repeat;}
+.icons_01{background-position:0px 0px;}
+.icons_02{background-position:0px -56px;}
+.icons_03{background-position:0px -112px;}
+.icons_04{background-position:0px -168px;}
+.icons_05{background-position:0px -224px;}
+.icons_06{background-position:0px -280px;}
+.rule_con{width:1018px; height:490px; position:absolute; top:107px; left:25px;}
+.rule_con_wrap{width:100%; height:100%; position:relative;}
+.rule_tree{border-right:1px dashed #aaaaaa; position:absolute; top:0px; left:0px; width:209px; height:490px;}
+.rule_canvas{ position:absolute; top:0px; left:210px; width:805px; height:490px;}
+.rule_table{display:inline-block; width:264px; height:83px; margin:10px 1px;}
+.icon_left{width:5px; height:35px; background:url(images/showleft.gif) no-repeat center center;}
+.icon_left_show{width:18px; height:54px; background:url(images/rule_left_icon.png) no-repeat center center;}
+.rule_bg{background:url(images/rule_item_bg.png) no-repeat center center; width:185px; height:79px;}
+.icon_right_show{width:18px; height:54px; background:url(images/rule_right_icon.png) no-repeat center center;}
+.icon_right{width:5px; height:35px; background:url(images/showleft.gif) no-repeat center center;}
+.icon_and{width:33px; height:15px; background:url(images/icon_and.png) no-repeat center center;}
+.icon_or{width:30px; height:15px; background:url(images/icon_or.png) no-repeat center center;}
